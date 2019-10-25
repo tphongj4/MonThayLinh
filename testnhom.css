@@ -135,7 +135,9 @@ left: 18%;
 top: 65%;
 font-size: 20px;
 font-family: times;
+transition: 1s;
 }
+
 .vungngoai{
 	width: 100%;
 	height: 200px;
@@ -171,11 +173,14 @@ font-family: times;
 .vungngoai form .ten{
 	float: left;
 	padding: 0.8rem;
+	border: none;
+	border-radius: 5px;
+	font-family: times;
 }
 .vungngoai form a{
 	text-align: center;
 	text-decoration: none;
-	padding: 0.8rem;
+	padding: 0.7rem;
 	text-transform: uppercase;
 	position: absolute;
 	width: 150px;
@@ -184,8 +189,13 @@ font-family: times;
 	transition: 1s;
 	font-weight: bold;
 	color: black;
+	border-radius: 5px;
 }
 .vungngoai form a:hover{
+	background: #21233c;
+	color: red;
+}
+.ima button a:hover{
 	background: #21233c;
 	color: red;
 }
@@ -268,6 +278,7 @@ a:hover {
 	float: left;
 	width: 32.5%;
 	height: 200px;
+	font-family: times;
 	background: white;
 }
 .khunngoai .khungbe a{
