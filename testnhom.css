@@ -1,0 +1,111 @@
+.khung{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+.khung .menu{
+	width: 100%;
+	height: 100px;
+	background: red;
+}
+.khung .menu .o1{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: white;
+}
+.khung .menu .o1 img{
+	width: 40%;
+	height: 100%;
+	margin-left: 150px;
+}
+.khung .menu .o1 h3{
+	color: red;
+	text-align: left;
+	font-size: 24px;
+}
+.khung .menu .o1 ul li{
+	float: left;
+	margin-left: 20px;
+	list-style-type: none;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 30px;
+	}
+.khung .ima{
+	width: 100%;
+	height: 400px;
+}
+.khung .ima img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.khung .ima ul{
+	list-style-type: none;
+}
+.khung .ima ul li{
+	width: 40px;
+	height: 40px;
+	/*background: blue;*/
+	position: absolute;
+}
+.khung .ima ul li.next{
+	bottom: 125px;
+	left: 8%; 
+	top: 30%;
+
+}
+.khung .ima ul li.next1{
+	bottom: 125px;
+	right: 8%; 
+	top: 30%;
+}
+.khung .ima h1{
+	color: #079bdb;
+	position: absolute;
+	top: 16%;
+     left: 18%;
+     font-family: Stencil;
+     font-weight: normal;
+     line-height: 30px;
+}
+.khung .ima h2{
+	color: white;
+	position: absolute;
+	top: 25%;
+     left: 18%;
+     font-family: Stencil;
+     font-weight: normal;
+     line-height: 30px;
+}
+.khung .ima h3{
+	color: #a802ba;
+	position: absolute;
+	top: 32%;
+     left: 18%;
+     font-family: Stencil;
+     font-weight: normal;
+     line-height: 30px;
+     font-size: 25px;
+}
+.khung .ima p{
+	color: white;
+	position: absolute;
+	top: 38%;
+     left: 18%;
+     font-family: times;
+     font-size: 20px;
+}
+.khung .ima button{
+width: 150px;
+height: 40px;
+background: #ebbd36;
+border: none;
+border-radius: 5px;
+position: absolute;
+left: 18%;
+top: 55%;
+font-size: 20px;
+font-family: times;
+}
