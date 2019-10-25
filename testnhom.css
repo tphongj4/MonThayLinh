@@ -1,0 +1,56 @@
+.lolol{
+	width: 100%;
+	height: 600px;
+	background: white;
+}
+.lolol .khungso1{
+	margin: 0 auto;
+	width: 50%;
+	height: 20%;
+	/* background: green; */
+}
+.lolol h3{
+	text-align: center;
+	display: block;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+.lolol p{
+	text-align: center;
+}
+.lolol .khunngoai{
+	background: lightgray;
+	width: 80%;
+	height: 70.4%;
+	margin: 0 auto;
+}
+.khunngoai .khungbe{
+	border: 1px solid black;
+	margin-bottom: 1.1rem ;
+	float: left;
+	width: 32.7%;
+	height: 200px;
+	background: white;
+}
+.khunngoai .khungbe a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.khunngoai .khungbe .ima{
+
+	width:30%;
+	height: 30% ;
+	margin: 0 auto;
+}
+.khungbe img{
+	width: 100%;
+	height: 100%;
+}
+.lolol .khungbe a{
+	text-align: center;
+	margin-left: 24%;
+	color: black;
+	font-size: 20px;
+}
+
