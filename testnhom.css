@@ -1,7 +1,244 @@
+
+.khung{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.khung .top{
+	width: 100%;
+	height: 50px;
+	background: #54026e;
+}
+.khung .top img{
+	width: 30px;
+	height: 30px;
+margin-top: 10px;
+float: left;
+margin-right: 10px;
+}
+.khung .top .u{
+	margin-left: 120px;
+}
+.khung .top .p{
+	float: right;
+	margin-left: 100px;
+}
+.khung .top p{
+	margin-top: 0px;
+	padding-top: 15px;
+	color: white;
+	float: left;
+	margin-right: 20px;
+}
+.khung .menu{
+	width: 100%;
+	height: 100px;
+	background: red;
+}
+.khung .menu .o1{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: white;
+}
+.khung .menu .o1 img{
+	width: 40%;
+	height: 100%;
+	margin-left: 150px;
+}
+.khung .menu .o1 h3{
+	color: red;
+	text-align: left;
+	font-size: 24px;
+}
+.khung .menu .o1 ul li{
+	float: left;
+	margin-left: 20px;
+	list-style-type: none;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 30px;
+	}
+.khung .ima{
+	width: 100%;
+	height: 500px;
+}
+.khung .ima img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.khung .ima ul{
+	list-style-type: none;
+}
+.khung .ima ul li{
+	width: 40px;
+	height: 40px;
+	/*background: blue;*/
+	position: absolute;
+}
+.khung .ima ul li.next{
+	bottom: 125px;
+	left: 8%; 
+	top: 30%;
+
+}
+.khung .ima ul li.next1{
+	bottom: 125px;
+	right: 8%; 
+	top: 30%;
+}
+.khung .ima h1{
+	color: #079bdb;
+	position: absolute;
+	top: 25%;
+     left: 18%;
+     font-family: Stencil;
+     font-weight: normal;
+     line-height: 30px;
+}
+.khung .ima h2{
+	color: white;
+	position: absolute;
+	top: 35%;
+     left: 18%;
+     font-family: Stencil;
+     font-weight: normal;
+     line-height: 30px;
+}
+.khung .ima h3{
+	color: #a802ba;
+	position: absolute;
+	top: 42%;
+     left: 18%;
+     font-family: Stencil;
+     font-weight: normal;
+     line-height: 30px;
+     font-size: 25px;
+}
+.khung .ima p{
+	color: white;
+	position: absolute;
+	top: 48%;
+     left: 18%;
+     font-family: times;
+     font-size: 20px;
+}
+.khung .ima button{
+width: 150px;
+height: 40px;
+background: #ebbd36;
+border: none;
+border-radius: 5px;
+position: absolute;
+left: 18%;
+top: 65%;
+font-size: 20px;
+font-family: times;
+}
+.vungngoai{
+	width: 100%;
+	height: 200px;
+	background: white;
+	margin: 0 auto;
+}
+.vungngoai h3{
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	padding-top: 1rem;
+	font-size: 25px;
+}
+.vungngoai .line{
+	width: 100%;
+	height: 1px;
+	margin-top: 5px;
+	background: red;
+}
+.vungngoai .bx{
+	width: 100%;
+	height: 110px;
+	background: #21233c;
+	margin-top: 1rem;
+	position: relative;
+}
+.vungngoai .bx1{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+.vungngoai form .ten{
+	float: left;
+	padding: 0.8rem;
+}
+.vungngoai form a{
+	text-align: center;
+	text-decoration: none;
+	padding: 0.8rem;
+	text-transform: uppercase;
+	position: absolute;
+	width: 150px;
+	top: 0%;
+	background: #B2F302;
+	transition: 1s;
+	font-weight: bold;
+	color: black;
+}
+.vungngoai form a:hover{
+	background: #21233c;
+	color: red;
+}
+/********************************************/
+.footer {
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	background: #733380;
+}
+.content {
+	float: left;
+	width: 35%;
+	height: 400px;
+	margin: 3rem 2rem 2rem 10rem;
+	/* background-color: orange; */
+}
+h1 {
+	color: #8B72BE;
+}
+.content p.contentfooter {
+	display: block;
+	color: #C9A0DC;
+	line-height: 30px;
+}
+a.no1 {
+	display: block;
+	background-color: #B2F302; /* Green */
+	border: 2px solid black;
+	border-radius: 5px;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+}
+img.pul {
+	float: left;
+	max-width: 45%;
+	height: 360px;
+	margin: 3rem 2rem 2rem 18rem;
+}
+a:hover {
+	background-color: white;
+	color: green;
+}
 .lolol{
 	width: 100%;
 	height: 600px;
 	background: white;
+	margin-top: 2rem;
 }
 .lolol .khungso1{
 	margin: 0 auto;
@@ -53,4 +290,5 @@
 	color: black;
 	font-size: 20px;
 }
+
 
