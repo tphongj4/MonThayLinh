@@ -109,3 +109,56 @@ top: 55%;
 font-size: 20px;
 font-family: times;
 }
+.vungngoai{
+	width: 100%;
+	height: 200px;
+	background: white;
+	margin: 0 auto;
+}
+.vungngoai h3{
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	padding-top: 1rem;
+	font-size: 25px;
+}
+.vungngoai .line{
+	width: 100%;
+	height: 1px;
+	margin-top: 5px;
+	background: red;
+}
+.vungngoai .bx{
+	width: 100%;
+	height: 110px;
+	background: #21233c;
+	margin-top: 1rem;
+	position: relative;
+}
+.vungngoai .bx1{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+.vungngoai form .ten{
+	float: left;
+	padding: 0.8rem;
+}
+.vungngoai form a{
+	text-align: center;
+	text-decoration: none;
+	padding: 0.8rem;
+	text-transform: uppercase;
+	position: absolute;
+	width: 150px;
+	top: 0%;
+	background: #fedd12;
+	transition: 1s;
+	font-weight: bold;
+	color: black;
+}
+.vungngoai form a:hover{
+	background: #21233c;
+	color: red;
+}
