@@ -3,6 +3,32 @@
 	height: auto;
 	margin: 0 auto;
 }
+.khung .top{
+	width: 100%;
+	height: 50px;
+	background: #54026e;
+}
+.khung .top img{
+	width: 30px;
+	height: 30px;
+margin-top: 10px;
+float: left;
+margin-right: 10px;
+}
+.khung .top .u{
+	margin-left: 120px;
+}
+.khung .top .p{
+	float: right;
+	margin-left: 100px;
+}
+.khung .top p{
+	margin-top: 0px;
+	padding-top: 15px;
+	color: white;
+	float: left;
+	margin-right: 20px;
+}
 .khung .menu{
 	width: 100%;
 	height: 100px;
@@ -64,7 +90,7 @@
 .khung .ima h1{
 	color: #079bdb;
 	position: absolute;
-	top: 16%;
+	top: 20%;
      left: 18%;
      font-family: Stencil;
      font-weight: normal;
@@ -73,7 +99,7 @@
 .khung .ima h2{
 	color: white;
 	position: absolute;
-	top: 25%;
+	top: 30%;
      left: 18%;
      font-family: Stencil;
      font-weight: normal;
@@ -82,7 +108,7 @@
 .khung .ima h3{
 	color: #a802ba;
 	position: absolute;
-	top: 32%;
+	top: 37%;
      left: 18%;
      font-family: Stencil;
      font-weight: normal;
@@ -92,7 +118,7 @@
 .khung .ima p{
 	color: white;
 	position: absolute;
-	top: 38%;
+	top: 43%;
      left: 18%;
      font-family: times;
      font-size: 20px;
@@ -105,7 +131,7 @@ border: none;
 border-radius: 5px;
 position: absolute;
 left: 18%;
-top: 55%;
+top: 65%;
 font-size: 20px;
 font-family: times;
 }
